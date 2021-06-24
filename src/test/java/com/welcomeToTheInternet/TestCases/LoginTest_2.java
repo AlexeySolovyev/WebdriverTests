@@ -18,8 +18,8 @@ public class LoginTest_2 extends BaseClass{
         loginPage.setUserPassword(invalidPassword);
         loginPage.clickSubmit();
 
-        boolean isNotLogedOn = driver.getPageSource().contains("Your username is invalid!");
-        if (isNotLogedOn) {
+        boolean isNotLoggedOn = driver.getPageSource().contains("Your username is invalid!");
+        if (isNotLoggedOn) {
             Assert.assertTrue(true);
         } else {
             captureScreen(driver, "Failed login procedure");
