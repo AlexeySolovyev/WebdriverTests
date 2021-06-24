@@ -1,2 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/alexeysolovyev/Documents/GitHub/WebdriverTests"><classes/></test></suite>
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="InetBankingV1">
+
+    <test name="InetBankingApp Test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <!--<class name="com.welcomeToTheInternet.TestCases.LoginTest_1"/>
+            <class name="com.welcomeToTheInternet.TestCases.LoginTest_2"/> -->
+            <class name="com.welcomeToTheInternet.TestCases.CheckboxTest_3"/>
+
+        </classes>
+    </test>>
+</suite>

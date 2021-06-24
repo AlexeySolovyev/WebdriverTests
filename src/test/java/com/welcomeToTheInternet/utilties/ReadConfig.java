@@ -27,8 +27,16 @@ public class ReadConfig {
         return properties.getProperty("username");
     }
 
+    public String getInvalidUsername() {
+        return properties.getProperty("invalidUsername");
+    }
+
     public String getUserPassword() {
         return properties.getProperty("password");
+    }
+
+    public String getInvalidUserPassword() {
+        return properties.getProperty("invalidPassword");
     }
 
     public String getChromePath() {
@@ -38,5 +46,6 @@ public class ReadConfig {
     public String getFirefoxPath() {
         return properties.getProperty("firefoxpath");
     }
+
 }
 
