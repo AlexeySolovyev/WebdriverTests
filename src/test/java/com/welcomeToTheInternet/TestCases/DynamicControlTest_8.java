@@ -10,7 +10,6 @@ public class DynamicControlTest_8 extends BaseClass{
     public void DynamicControlTest() throws IOException {
         driver.get(baseURL);
         DynamicControlsPage dynamicControl = new DynamicControlsPage(driver);
-
         dynamicControl.clickDynamicControlLink();
         dynamicControl.enableDynamicControlCheckbox();
         dynamicControl.clickDynamicControlRemove();
