@@ -13,8 +13,10 @@
             <class name="com.welcomeToTheInternet.TestCases.DropdownTest_6"/>
             <class name="com.welcomeToTheInternet.TestCases.DynamicContentTest_7"/>
             <class name="com.welcomeToTheInternet.TestCases.DynamicControlTest_8"/>
-            <class name="com.welcomeToTheInternet.TestCases.DynamicLoadedElementsPage_9"/> -->
-            <class name="com.welcomeToTheInternet.TestCases.FileDownloadTest_10"/>
+            <class name="com.welcomeToTheInternet.TestCases.DynamicLoadedElementsPage_9"/>
+            <class name="com.welcomeToTheInternet.TestCases.FileDownloadTest_10"/> -->
+            <class name="com.welcomeToTheInternet.TestCases.FileUploadTest_11"/>
+
         </classes>
     </test>
 </suite>

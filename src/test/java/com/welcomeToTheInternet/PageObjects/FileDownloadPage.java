@@ -7,6 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import java.io.File;
+import java.util.Objects;
 
 
 public class FileDownloadPage {
@@ -16,6 +17,7 @@ public class FileDownloadPage {
         localDriver = remoteDriver;
         PageFactory.initElements(remoteDriver, this);
     }
+
     private static final String downloadPath = "/Users/alexeysolovyev/Downloads";
 
     @FindBy(css = "a[href='/download']")
@@ -30,13 +32,13 @@ public class FileDownloadPage {
         linkDownloadPage.click();
     }
 
-        boolean isFileDownloaded(String downloadPath, String fileName) {
+        boolean isFileDownloaded() {
         boolean flag = false;
-        File dir = new File(downloadPath);
+        File dir = new File(FileDownloadPage.downloadPath);
         File[] dirContents = dir.listFiles();
 
-        for (int i = 0; i < dirContents.length; i++) {
-            if (dirContents[i].getName().equals(fileName)) {
+        for (int i = 0; i < Objects.requireNonNull(dirContents).length; i++) {
+            if (dirContents[i].getName().equals("some-file.txt")) {
                 return flag = true;
             }
         } return flag;
@@ -45,6 +47,6 @@ public class FileDownloadPage {
     public void clickDownloadFileLink() throws InterruptedException {
         linkFileDownload.click();
         Thread.sleep(500);
-        Assert.assertTrue(isFileDownloaded(downloadPath, "some-file.txt"), "Failed to download file.");
+        Assert.assertTrue(isFileDownloaded(), "Failed to download file.");
     }
 }
