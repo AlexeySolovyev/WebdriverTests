@@ -10,13 +10,12 @@ import java.io.IOException;
 public class ContextMenuTest_4 extends BaseClass {
 
     @Test
-    public void ContextMenuTest() throws IOException, InterruptedException {
+    public void ContextMenuTest() throws IOException {
         driver.get(baseURL);
-        ContextMenuPage contextMenuPage = new ContextMenuPage(driver);
+        ContextMenuPage contextMenu = new ContextMenuPage(driver);
 
-        driver.get(baseURL);
-        contextMenuPage.clickContextMenuLink();
-        contextMenuPage.clickOnBox();
+        contextMenu.clickContextMenuLink();
+        contextMenu.clickOnBox();
 
         Alert alert = driver.switchTo().alert();
         String message = alert.getText();

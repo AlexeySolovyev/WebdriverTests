@@ -9,13 +9,13 @@ import java.io.IOException;
 public class CheckboxTest_3 extends BaseClass{
 
     @Test
-    public void CheckboxTest() throws IOException, InterruptedException {
+    public void CheckboxTest() throws IOException {
         driver.get(baseURL);
-        CheckboxPage checkboxPage = new CheckboxPage(driver);
+        CheckboxPage checkbox = new CheckboxPage(driver);
 
-        checkboxPage.clickCheckboxLink();
-        checkboxPage.clickCheckbox1();
-        checkboxPage.clickCheckbox2();
+        checkbox.clickCheckboxLink();
+        checkbox.clickCheckbox1();
+        checkbox.clickCheckbox2();
 
         boolean isCheckbox1Checked = driver.getPageSource().contains("checked");
         if (isCheckbox1Checked) {
