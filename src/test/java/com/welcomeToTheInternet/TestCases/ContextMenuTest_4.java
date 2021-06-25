@@ -19,6 +19,7 @@ public class ContextMenuTest_4 extends BaseClass {
 
         Alert alert = driver.switchTo().alert();
         String message = alert.getText();
+
         boolean isAlertMessage = message.contains("You selected a context menu");
         if (isAlertMessage) {
             Assert.assertTrue(true);
