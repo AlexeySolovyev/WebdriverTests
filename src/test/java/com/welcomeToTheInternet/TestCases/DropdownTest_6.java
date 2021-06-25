@@ -9,7 +9,7 @@ import java.io.IOException;
 public class DropdownTest_6 extends BaseClass{
 
     @Test
-    public void DropdownTest() throws IOException, InterruptedException {
+    public void DropdownTest() throws IOException {
         driver.get(baseURL);
         DropdownPage dropdown = new DropdownPage(driver);
 
@@ -24,7 +24,5 @@ public class DropdownTest_6 extends BaseClass{
         dropdown.waitForList(driver);
         dropdown.selectElement2();
         //assertion
-
-
     }
 }

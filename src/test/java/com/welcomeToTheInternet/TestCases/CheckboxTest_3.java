@@ -3,7 +3,6 @@ package com.welcomeToTheInternet.TestCases;
 import com.welcomeToTheInternet.PageObjects.CheckboxPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 
 public class CheckboxTest_3 extends BaseClass{
