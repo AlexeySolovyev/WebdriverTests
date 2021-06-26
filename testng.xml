@@ -19,8 +19,9 @@
             <class name="com.welcomeToTheInternet.TestCases.FloatingMenuTest_12"/>
             <class name="com.welcomeToTheInternet.TestCases.IFrameTest_13"/>
             <class name="com.welcomeToTheInternet.TestCases.MouseHoverTest_14"/>
-            <class name="com.welcomeToTheInternet.TestCases.JsAlertTest_15"/> -->
-            <class name="com.welcomeToTheInternet.TestCases.JsErrorTest_16"/>
+            <class name="com.welcomeToTheInternet.TestCases.JsAlertTest_15"/>
+            <class name="com.welcomeToTheInternet.TestCases.JsErrorTest_16"/> -->
+            <class name="com.welcomeToTheInternet.TestCases.MultipleWindowsTest_17"/>
 
         </classes>
     </test>
