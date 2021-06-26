@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 
-public class DynamicLoadedElementsPage_9  extends BaseClass{
+public class DynamicLoadingTest_9 extends BaseClass{
 
     @Test
     public void DynamicLoadedElementsTest() throws IOException {

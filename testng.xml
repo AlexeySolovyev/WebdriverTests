@@ -13,12 +13,13 @@
             <class name="com.welcomeToTheInternet.TestCases.DropdownTest_6"/>
             <class name="com.welcomeToTheInternet.TestCases.DynamicContentTest_7"/>
             <class name="com.welcomeToTheInternet.TestCases.DynamicControlTest_8"/>
-            <class name="com.welcomeToTheInternet.TestCases.DynamicLoadedElementsPage_9"/>
+            <class name="com.welcomeToTheInternet.TestCases.DynamicLoadingTest_9"/>
             <class name="com.welcomeToTheInternet.TestCases.FileDownloadTest_10"/>
             <class name="com.welcomeToTheInternet.TestCases.FileUploadTest_11"/>
             <class name="com.welcomeToTheInternet.TestCases.FloatingMenuTest_12"/>
-            <class name="com.welcomeToTheInternet.TestCases.IFramePageTest_13"/> -->
-            <class name="com.welcomeToTheInternet.TestCases.HoversPageTest_14"/>
+            <class name="com.welcomeToTheInternet.TestCases.IFrameTest_13"/>
+            <class name="com.welcomeToTheInternet.TestCases.MouseHoverTest_14"/> -->
+            <class name="com.welcomeToTheInternet.TestCases.JsAlertTest_15"/>
 
         </classes>
     </test>

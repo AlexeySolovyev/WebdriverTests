@@ -3,7 +3,7 @@ package com.welcomeToTheInternet.TestCases;
 import com.welcomeToTheInternet.PageObjects.IFramePage;
 import org.testng.annotations.Test;
 
-public class IFramePageTest_13 extends BaseClass {
+public class IFrameTest_13 extends BaseClass {
 
     @Test
     public void IFramePageTest() {

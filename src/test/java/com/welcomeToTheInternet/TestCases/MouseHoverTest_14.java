@@ -3,7 +3,7 @@ package com.welcomeToTheInternet.TestCases;
 import com.welcomeToTheInternet.PageObjects.HoversPage;
 import org.testng.annotations.Test;
 
-public class HoversPageTest_14 extends BaseClass {
+public class MouseHoverTest_14 extends BaseClass {
 
     @Test
     public void HoversPageTest() {
