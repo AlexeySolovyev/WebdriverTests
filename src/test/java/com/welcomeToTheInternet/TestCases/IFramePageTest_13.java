@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class IFramePageTest_13 extends BaseClass {
 
     @Test
-    public void IFramePageTest() throws InterruptedException {
+    public void IFramePageTest() {
         driver.get(baseURL);
         IFramePage iFramePage = new IFramePage(driver);
 

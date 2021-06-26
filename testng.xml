@@ -16,8 +16,9 @@
             <class name="com.welcomeToTheInternet.TestCases.DynamicLoadedElementsPage_9"/>
             <class name="com.welcomeToTheInternet.TestCases.FileDownloadTest_10"/>
             <class name="com.welcomeToTheInternet.TestCases.FileUploadTest_11"/>
-            <class name="com.welcomeToTheInternet.TestCases.FloatingMenuTest_12"/> -->
-            <class name="com.welcomeToTheInternet.TestCases.IFramePageTest_13"/>
+            <class name="com.welcomeToTheInternet.TestCases.FloatingMenuTest_12"/>
+            <class name="com.welcomeToTheInternet.TestCases.IFramePageTest_13"/> -->
+            <class name="com.welcomeToTheInternet.TestCases.HoversPageTest_14"/>
 
         </classes>
     </test>
