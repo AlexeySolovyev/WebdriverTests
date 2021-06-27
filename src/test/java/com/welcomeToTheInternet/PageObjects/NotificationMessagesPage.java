@@ -28,23 +28,15 @@ public class NotificationMessagesPage {
     @CacheLookup
     WebElement actionMessage1;
 
-    @FindBy(xpath = "//div[contains(text(),'Action unsuccesful, please try again')]")
-    @CacheLookup
-    WebElement actionMessage2;
-
-
     public void clickNotificationPageLink() {
         linkNotificationPage.click();
     }
 
     public void clickLoadNewMessage() {
 
-        boolean isMessage1 = actionMessage1.getText().contains("Action successful");
-        if (isMessage1) {
+        if (actionMessage1.getText().contains("Action successful")) {
             linkLoadMessage.click();
-            Assert.assertTrue(true);
-        } else {
-            Assert.assertFalse(false);
         }
+
     }
 }

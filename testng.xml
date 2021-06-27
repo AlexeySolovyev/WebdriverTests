@@ -21,8 +21,8 @@
             <class name="com.welcomeToTheInternet.TestCases.MouseHoverTest_14"/>
             <class name="com.welcomeToTheInternet.TestCases.JsAlertTest_15"/>
             <class name="com.welcomeToTheInternet.TestCases.JsErrorTest_16"/>
-            <class name="com.welcomeToTheInternet.TestCases.MultipleWindowsTest_17"/> -->
-            <class name="com.welcomeToTheInternet.TestCases.NotificationMessageTest_18"/>
+            <class name="com.welcomeToTheInternet.TestCases.MultipleWindowsTest_17"/>
+            <class name="com.welcomeToTheInternet.TestCases.NotificationMessageTest_18"/>-->
 
         </classes>
     </test>

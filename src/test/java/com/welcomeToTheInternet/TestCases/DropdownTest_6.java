@@ -1,7 +1,6 @@
 package com.welcomeToTheInternet.TestCases;
 
 import com.welcomeToTheInternet.PageObjects.DropdownPage;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -9,7 +8,7 @@ import java.io.IOException;
 public class DropdownTest_6 extends BaseClass{
 
     @Test
-    public void DropdownTest() throws IOException {
+    public void DropdownTest() {
         driver.get(baseURL);
         DropdownPage dropdown = new DropdownPage(driver);
 
@@ -18,11 +17,9 @@ public class DropdownTest_6 extends BaseClass{
         dropdown.clickDropDownList();
         dropdown.waitForList(driver);
         dropdown.selectElement1();
-        // assertion
 
         dropdown.clickDropDownList();
         dropdown.waitForList(driver);
         dropdown.selectElement2();
-        //assertion
     }
 }
