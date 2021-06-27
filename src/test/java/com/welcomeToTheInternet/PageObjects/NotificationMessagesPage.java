@@ -28,14 +28,22 @@ public class NotificationMessagesPage {
     @CacheLookup
     WebElement actionMessage1;
 
+    @FindBy(xpath = "//div[contains(text(),'Action unsuccesful, please try again')]")
+    @CacheLookup
+    WebElement actionMessage2;
+
     public void clickNotificationPageLink() {
         linkNotificationPage.click();
     }
 
-    public void clickLoadNewMessage() {
-
-        if (actionMessage1.getText().contains("Action successful")) {
+    public void clickLoadNewMessage () {
+        int count = 0;
+        String text = localDriver.findElement(By.id("flash")).getText();
+        if (!text.contains("Action successful")) {
             linkLoadMessage.click();
+            Assert.assertTrue(true);
+        } else {
+            Assert.assertFalse(false);
         }
 
     }
