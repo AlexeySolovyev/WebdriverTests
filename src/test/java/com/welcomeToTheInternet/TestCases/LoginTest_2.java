@@ -15,7 +15,9 @@ public class LoginTest_2 extends BaseClass{
 
         loginPage.clickLoginLink();
         loginPage.setUserName(invalidUsername);
+        logger.info("Invalid username provided");
         loginPage.setUserPassword(invalidPassword);
+        logger.info("Invalid password provided");
         loginPage.clickSubmit();
 
         boolean isNotLoggedOn = driver.getPageSource().contains("Your username is invalid!");
