@@ -11,9 +11,9 @@
             <class name="com.welcomeToTheInternet.TestCases.ContextMenuTest_4"/>
             <class name="com.welcomeToTheInternet.TestCases.DragAndDropTest_5"/>
             <class name="com.welcomeToTheInternet.TestCases.DropdownTest_6"/>
-            <class name="com.welcomeToTheInternet.TestCases.DynamicContentTest_7"/>
+            <class name="com.welcomeToTheInternet.TestCases.DynamicContentTest_7"/> -->
             <class name="com.welcomeToTheInternet.TestCases.DynamicControlTest_8"/>
-            <class name="com.welcomeToTheInternet.TestCases.DynamicLoadingTest_9"/>
+            <!--<class name="com.welcomeToTheInternet.TestCases.DynamicLoadingTest_9"/>
             <class name="com.welcomeToTheInternet.TestCases.FileDownloadTest_10"/>
             <class name="com.welcomeToTheInternet.TestCases.FileUploadTest_11"/>
             <class name="com.welcomeToTheInternet.TestCases.FloatingMenuTest_12"/>
