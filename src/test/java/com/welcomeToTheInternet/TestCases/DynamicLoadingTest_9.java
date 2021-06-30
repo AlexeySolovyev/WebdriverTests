@@ -2,7 +2,6 @@ package com.welcomeToTheInternet.TestCases;
 
 import com.welcomeToTheInternet.PageObjects.DynamicLoadedElementsPage;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 
 public class DynamicLoadingTest_9 extends BaseClass{

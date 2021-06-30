@@ -1,7 +1,6 @@
 package com.welcomeToTheInternet.TestCases;
 
 import com.welcomeToTheInternet.PageObjects.FileDownloadPage;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class FileDownloadTest_10 extends BaseClass {

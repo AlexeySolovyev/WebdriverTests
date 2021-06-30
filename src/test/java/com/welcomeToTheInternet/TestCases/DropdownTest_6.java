@@ -3,8 +3,6 @@ package com.welcomeToTheInternet.TestCases;
 import com.welcomeToTheInternet.PageObjects.DropdownPage;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
-
 public class DropdownTest_6 extends BaseClass{
 
     @Test
