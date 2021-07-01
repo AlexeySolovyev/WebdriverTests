@@ -3,7 +3,6 @@ package com.welcomeToTheInternet.TestCases;
 import com.welcomeToTheInternet.PageObjects.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 
 public class LoginTest_2 extends BaseClass{

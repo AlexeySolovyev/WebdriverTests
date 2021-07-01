@@ -13,9 +13,12 @@ public class CheckboxTest_3 extends BaseClass{
         CheckboxPage checkbox = new CheckboxPage(driver);
 
         checkbox.clickCheckboxLink();
+        logger.info("Navigated to the Checkbox page");
         checkbox.clickCheckbox1();
+        logger.info("Clicked to checkbox1");
         checkbox.clickCheckbox2();
-
+        logger.info("Clicked to checkbox2");
+        
         boolean isCheckbox1Checked = driver.getPageSource().contains("checked");
         if (isCheckbox1Checked) {
             Assert.assertTrue(true);

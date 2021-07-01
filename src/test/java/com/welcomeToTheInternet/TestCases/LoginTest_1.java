@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.io.IOException;
 
-public class LoginTest_1 extends BaseClass{
+public class LoginTest_1 extends BaseClass {
 
     @Test
     public void LoginTest() throws IOException {

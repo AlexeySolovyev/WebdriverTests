@@ -4,7 +4,6 @@ import com.welcomeToTheInternet.PageObjects.ContextMenuPage;
 import org.openqa.selenium.Alert;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 
 public class ContextMenuTest_4 extends BaseClass {
@@ -15,8 +14,9 @@ public class ContextMenuTest_4 extends BaseClass {
         ContextMenuPage contextMenu = new ContextMenuPage(driver);
 
         contextMenu.clickContextMenuLink();
+        logger.info("Navigated to the Context Menu page");
         contextMenu.clickOnBox();
-
+        logger.info("Clicked on the box");
         Alert alert = driver.switchTo().alert();
         String message = alert.getText();
 
